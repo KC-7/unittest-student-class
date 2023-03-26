@@ -38,33 +38,32 @@ The `test_course_schedule_success` and `test_course_schedule_failed` methods use
 
 ## Tests
 
-### TestStudent Class
+### `TestStudent` Class
 
-1. test_full_name
+1. `test_full_name`
     - Tests the full_name method
     - Asserts that the full name returned by the method is equal to the expected full name.
 
-2. test_email
+2. `test_email`
     - Tests the email method
     - Asserts that the email returned by the method is equal to the expected email.
 
-3. test_alert_santa
+3. `test_alert_santa`
     - Tests the alert_santa method
     - Asserts that the naughty_list attribute is set to True after the method is called.
 
-4. test_apply_extension
+4. `test_apply_extension`
     - Tests the apply_extension method
     - Asserts that the end_date attribute is updated correctly after the method is called.
 
-5. test_course_schedule_success
+5. `test_course_schedule_success`
     - Tests the course_schedule method when the HTTP request is successful
     - Mocks the requests.get function to return a successful response
     - Asserts that the response returned by the method is equal to the expected response.
 
-6. test_course_schedule_failed
+6. `test_course_schedule_failed`
     - Tests the course_schedule method when the HTTP request fails
     - Asserts that the response returned by the method is equal to the expected response.
-
 
 ## Credits
 
